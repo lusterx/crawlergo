@@ -18,7 +18,7 @@ var (
 )
 
 func init() {
-	for _, suffix := range []string{"js", "css", "json"} {
+	for _, suffix := range []string{"js", "css", "json", "jpg" , "png" , "mp4" , "mov" , "mpg" , "ts" , "wmv"} {
 		staticSuffixSet.Add(suffix)
 	}
 }
